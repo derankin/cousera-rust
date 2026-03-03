@@ -2,7 +2,15 @@
 
 This is a simple "Hello, World!" program written in Rust.
 
-## 1. Install Rust (with rustup)
+## 1. Quick Start
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+rustup default stable
+cargo run
+```
+
+## 2. Install Rust (with rustup)
 
 Install Rust using `rustup`:
 
@@ -24,7 +32,7 @@ Optional: ensure the stable toolchain is active:
 rustup default stable
 ```
 
-## 2. Running the Program
+## 3. Running the Program
 
 Once Rust is installed, you can run the program using the following command:
 
@@ -32,7 +40,7 @@ Once Rust is installed, you can run the program using the following command:
 cargo run
 ```
 
-## 3. Expected Output
+## 4. Expected Output
 
 When you run the program, you should see the following output:
 
@@ -40,18 +48,18 @@ When you run the program, you should see the following output:
 Hello, world!
 ```
 
-## 4. Program Structure
+## 5. Program Structure
 
 The project has one function in `src/main.rs`:
 
 - `fn main()` is the entry point of the program.
 - It prints `Hello, world!` to the console using `println!`.
 
-## 5. Credits
+## 6. Credits
 
 This program was created as part of a Rust programming course on Coursera.
 
-## 6. Open in GitHub Codespaces
+## 7. Open in GitHub Codespaces
 
 1. Push this repository to GitHub.
 2. Open the repository page on GitHub.
