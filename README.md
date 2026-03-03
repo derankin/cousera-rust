@@ -38,8 +38,8 @@ This repo includes a `.devcontainer` configuration, so Rust tooling is preconfig
 
 ### Run in Codespaces
 
-Since this project currently uses a single `main.rs` file (without `Cargo.toml`), run:
+Run the project with Cargo:
 
 ```bash
-rustc main.rs && ./main
+cargo run
 ```
